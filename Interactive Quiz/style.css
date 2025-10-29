@@ -1,0 +1,140 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}   
+
+body{
+
+    background-color: #001e4d;
+}
+
+/* .greet{
+    background-color: white;
+    margin-bottom: 0px;
+} */
+
+#welcome{
+
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: -40px;
+    color: red;
+}
+
+#welcome:hover{
+
+   color: rgb(0, 255, 255);
+   
+}
+
+.app{
+
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    /* margin-top: 0px; */
+    margin: 100px auto 0;
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(0, 255, 221);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    transition: all 0.4s ease;
+    
+}
+
+.app h1:hover{
+
+    color: rgb(255, 0, 200);
+}
+
+.quiz{
+
+    padding: 20px 0; 
+}
+
+.quiz h2{
+
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+}
+
+.btn{
+
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+
+    background-color: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+
+    cursor: no-drop;
+}
+
+#next-btn{
+
+    color: #fff;
+    background-color: #001e4d;
+    font-weight: 500;
+    width: 150px;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+
+    background-color: #9aeabc;
+}
+
+.incorrect{
+
+    background-color: #ff9393;
+}
+
+.note{
+
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+/********* Stop!***************** */

@@ -16,7 +16,7 @@ Technologies Used:-
 HTML5 – For the structure of the app.
 CSS3 – For styling and responsive layout.
 JavaScript (ES6) – For fetching data and dynamic content updates.
-OpenWeatherMap API (or your chosen API) – For real-time weather data.
+OpenWeatherMap API – For real-time weather data.
 
 How It Works:-
 
